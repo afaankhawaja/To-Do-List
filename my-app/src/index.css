@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main{
+  width: 100%;
+  height:590px;
+  background: #e2e8f0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.card{
+  width: 40%;
+  height:500px;
+  box-shadow: 5px 5px 25px -5px rgb(141, 91, 207);
+  border-radius: 10px;
+  align-content: flex-start;
+  float: left;
+}
+
+h1{
+  color: rgb(245, 153, 153);
+  background: transparent;
+  background-color: #ccb0ee;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 25px -5px black;
+}
+button{
+  color: rgb(255, 254, 254);
+  background-color:darkorchid;
+  border-radius: 30%;
+  border-color: rgb(89, 89, 104);
+}
+/* button.hover{
+  transition:cubic-bezier(0.075, 0.82, 0.165, 1) ;
+  color: #000000;
+} */
+/* .container {   
+  padding: 25px;   
+  background-color: lightblue;  
+}  */
+.container {   
+  padding: 25px;   
+  background-color:#d4d4d8;
+  width: 40%; 
+  height: 450px;
+  display:flexbox;
+
+} 
+button {   
+  background-color: #14b8a6;   
+  width: 100%;  
+   color: rgb(253, 249, 6);   
+   padding: 15px;   
+   margin: 10px 0px;   
+   border: none;   
+   cursor: pointer;   
+    }  
+.menu{
+      display:contents;
+      padding-left: 100px;
+      align-items: center;
+    }
+    
+    a {
+      display: block;
+      padding: 8px;
+      background-color: #a59191;
+    }
+    
+    .navbar {
+      background-color: #333;
+      display: flex;
+      justify-content:start;
+      align-items:start;
+      height: 60px;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 20px;
+      transition: background-color 0.3s ease;
+    }
+    
+    /* Change the color of the links on hover */
+    .navbar a:hover {
+      background-color: #555;
+    }
+    
+    /* Optional: Add some spacing between the links */
+    .navbar a + a {
+      margin-left: 0px;
+      margin-right: 0px;
+      
+    }
+    .navbar a + a + a {
+      margin-left: 0px;
+      margin-right: 700px;
+      
+    }
+    .navbar a+a+a+a{
+      margin-left: 0px;
+      margin-right: 100px;
+    }
